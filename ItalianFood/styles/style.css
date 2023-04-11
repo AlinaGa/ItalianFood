@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+h1 {
+    font-size: 4.3em;
+    font-family: "reey";
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 5em;
+    font-family: "reey";
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h5 {
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h6 {
+    font: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.navbar {
+    padding-top: 50px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    flex-wrap: nowrap;
+
+    padding-right: 40px;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    background-color: none;
+    list-style: none;
+    color: white;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.navbar ul li {
+    flex-wrap: nowrap;
+    margin: 10px;
+    margin-right: 70px;
+
+}
+
+#searchbar {
+    min-height: 50px;
+    border-radius: 25px;
+    margin-right: 40px;
+    padding-left: 30px;
+
+
+}
+
+.banner {
+    color: white;
+    margin: 0px;
+    background-image: url("../src/Slate-1.png");
+    background-size: cover;
+
+    height: 1000px;
+    display: flex;
+}
+
+.hero-text {
+    z-index: 1;
+
+}
+
+.hero-images {
+
+    z-index: 0;
+
+}
+
+#banner-carbonara {
+    position: absolute;
+    width: 35%;
+    top: 200px;
+    right: 50px;
+}
+
+#banner-basilico {
+    position: absolute;
+    width: 40%;
+    top: 500px;
+    right: 0px;
+}
+
+#banner-spice {
+    position: absolute;
+    width: 20%;
+
+    top: 600px;
+    right: 450px;
+
+
+}
+
+
+#logo {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#titlename {
+    margin-top: 100px;
+    margin-left: 100px;
+    min-width: 40%;
+}
+
+#subtitle {
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+#read-more {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.hero-descripion {
+
+    min-width: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-style: italic;
+    max-width: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+/*Alina*/
+
+#dishes {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#dishes h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#dishes p {
+    margin-bottom: 50px;
+}
+
+#dishes button {
+    margin-bottom: 50px;
+}
+
+.noodle-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.noodle-list li {
+    box-sizing: border-box;
+    max-width: 400px;
+    margin: 50px;
+    text-align: left;
+}
+
+.noodle-list h3 {
+    margin-bottom: 30px;
+}
+
+.noodle-list img {
+    max-height: 350px;
+    margin-bottom: 30px;
+}
+
+
+#moreinfo {
+    color: white;
+    background-color: #1c1c1c;
+    width: 100%;
+    min-height: 700px;
+    text-align: center;
+}
+
+#moreinfo h2 {
+    padding-top: 70px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.ingredients p {
+    padding-top: 50px;
+    font-size: 1.3em;
+    max-width: 700px;
+}
+
+.moreinfo-wrapper button {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#discount {
+    width: 100%;
+    min-height: 1500px;
+}
+
+
+.discount-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+}
+
+.discount-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+}
+
+.discount-1 img {
+    width: 45%;
+    padding-top: 50px;
+}
+
+.discount-2 img {
+    width: 45%;
+
+}
+
+#discount p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.discount-text {
+    max-width: 30%;
+}
+
+.discount-1 .discount-text {
+    padding-right: 100px;
+}
+
+.discount-2 .discount-text {
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    #discount {
+        text-align: center;
+    }
+
+
+
+
+    .discount-1 img {
+        width: 70%;
+    }
+
+    .discount-2 img {
+        width: 70%;
+    }
+
+}
+
+
+/*Alina End*/
+
+.button-white {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding: 15px 30px 15px 30px;
+}
+
+.button-black {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding: 15px 30px 15px 30px;
+}
+
+
+/* Mo */
+.container>#pizza {
+
+    background-image: url("../src/Slate-1.png");
+    background-size: cover;
+    min-height: 1000px;
+    width: 100%;
+}
+
+#pizza {
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: middle;
+    min-height: 1000px;
+
+}
+
+.basilicopic1 {
+    position: relative;
+    right: 20%;
+    bottom: 0;
+
+}
+
+.basilicopic2 {
+    position: relative;
+    left: 40%;
+    bottom: 350px;
+
+}
+
+.pizzapic {
+    width: 50%;
+    height: 45%;
+    position: relative;
+    top: 22em;
+    left: 0;
+}
+
+.text {
+    padding-top: 2em;
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    min-height: 300px;
+
+}
+
+.text>p {
+    width: 60%;
+    max-height: 350px;
+    overflow: scroll;
+
+    padding-left: 20%;
+}
+
+.text>p::-webkit-scrollbar {
+    display: none;
+}
+
+.text>.line {
+    border: solid 10 px white;
+    width: 50px;
+}
+
+.text2 {
+    padding-top: 150px;
+    min-height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.text5 {
+    text-align: center;
+    padding-bottom: 10%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.firstsectionpizza {
+    box-sizing: border-box;
+    max-width: 400px;
+    margin: 50px;
+    text-align: left;
+
+}
+
+.firstsectionpizza>h3 {
+    font-family: "reey";
+}
+
+#reviews {
+    width: 100%;
+    min-height: 800px;
+    background-color: #1c1c1c;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.text3>h2 {
+
+    margin-bottom: 50px;
+}
+
+.reviewspic {
+    position: relative;
+    left: 43%;
+    bottom: 5%;
+}
+
+.reviewspic2 {
+    position: relative;
+    right: 43%;
+    top: 60%;
+}
+
+.search {
+    border: 1px solid rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    color: black;
+    border-radius: 25px;
+    height: 35px;
+    width: 20%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #ffffff;
+}
+
+.label {
+    color: white;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.9em;
+    right: 50px;
+    top: 3px;
+}
+
+.label:hover {
+    background-color: rgb(0, 228, 0);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.text3 {
+    position: relative;
+    bottom: 40px;
+}
+
+/* Mo */
+
+footer {
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+#footer-elmt0 {
+    width: 50%;
+}
+
+#footer-elmt1 {
+    margin-left: 10;
+    width: 20%;
+}
+
+#footer-elmt2 {
+    width: 20%;
+}
+
+#footer-elmt3 {
+    width: 20%;
+}
+
+
+.footer-elmt ul {
+    list-style: none;
+    margin: 50px;
+    padding: 0;
+}
+
+#footer-elmt.social-media-icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "reey";
+    src: url(../fonts/Reey-Regular.otf);
+}
+
+
+
+/* Responsive */
+/* Mo Section */
+@media only screen and (max-width: 720px) {
+    pizza {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pizzapic {
+
+        max-width: 385px;
+        max-height: 350px;
+        top: 50em;
+        left: -175px;
+    }
+
+    .basilicopic1 {
+        right: 50px;
+    }
+
+    .basilicopic2 {
+        left: 10%;
+        bottom: 0;
+        visibility: hidden;
+    }
+
+    .text {
+        font-size: 2e;
+    }
+
+    .text2 {
+        position: relative;
+        z-index: 1;
+        height: fit-content;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+
+
+
+    .search {
+        border: 1px solid rgb(0, 0, 0);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5em;
+        color: black;
+        border-radius: 25px;
+        height: 35px;
+        width: 60%;
+        padding: 2px 23px 2px 30px;
+        outline: 0;
+        background-color: #ffffff;
+    }
+
+    .label {
+        left: 2%;
+    }
+
+    .reviewspic {
+        position: relative;
+        left: 0;
+        bottom: 5%;
+        visibility: hidden;
+    }
+
+    .reviewspic2 {
+        position: relative;
+        right: 0;
+        top: 60%;
+    }
+
+}
+
+/* Mo Section */
