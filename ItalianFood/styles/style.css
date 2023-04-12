@@ -546,16 +546,25 @@ footer {
     width: 20%;
 }
 
+.social-icons{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 100%;
+}
+
+.social-icons div{
+font-size: 30px;
+margin: 10px;
+}
+
+
+
 
 .footer-elmt ul {
     list-style: none;
     margin: 50px;
     padding: 0;
-}
-
-#footer-elmt.social-media-icons {
-    display: flex;
-    justify-content: center;
 }
 
 
